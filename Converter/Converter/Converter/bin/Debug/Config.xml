@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Root>
+  <Project>
+    <Name>GDD313IA0040S</Name>
+  </Project>
+  <GDD313IA0040S>
+    <SourceIC>  
+    </SourceIC>
+    <PrcsClass>BMWPADILOT2TestItem,BMWPADITestItem,BMWPADITestItemCBMS,BMWPADITestItemTPI</PrcsClass>   
+	<LOT2>
+	<PrcsItem>
+	BMWPADILOT2TestItem.LOT2_init,
+    BMWPADITestItem.LoadXML,
+    BMWPADILOT2TestItem.Power_Supply_On,
+    BMWPADILOT2TestItem.ReadIndigo2FWVersion,
+    BMWPADILOT2TestItem.ReadChipID,
+    BMWPADILOT2TestItem.GetChipID,
+    BMWPADILOT2TestItem.Verify_idle,
+    BMWPADILOT2TestItem.DisplayOn,
+    BMWPADILOT2TestItem.Delay_DisplayOn,
+    BMWPADILOT2TestItem.SetBackLight,
+    BMWPADILOT2TestItem.DisableWatchDog,
+    BMWPADILOT2TestItem.BistOn,
+    BMWPADILOT2TestItem.Switch_Pattern,
+    BMWPADILOT2TestItem.DisplayOff,
+    BMWPADILOT2TestItem.Delay_DisplayOn
+	</PrcsItem>
+	<PrcsFinalItem>	
+	BMWPADILOT2TestItem.Power_Supply_Off
+	</PrcsFinalItem>
+    </LOT2>
+	<LOT3>
+	<PrcsItem>
+	BMWPADITestItem.LOT3_init,
+    BMWPADITestItem.LoadXML,
+    BMWPADITestItem.Power_Supply_On,
+	BMWPADITestItem.WaitForRSE_WakeUp,
+	BMWPADITestItem.DelayForRSEstartup,
+    BMWPADITestItem.ReadBacklightTemp,
+    BMWPADITestItem.CheckBacklightTemperature,
+	BMWPADITestItem.CheckIndigoFW,
+	<!-- BMWPADITestItem.ReadADCTest, -->
+	BMWPADITestItem.CheckVSH,
+	BMWPADITestItem.CheckVGH,
+	BMWPADITestItem.CheckVGL,
+	BMWPADITestItem.CheckVbat,
+    BMWPADITestItem.CheckIndigoFW,
+    BMWPADITestItem.DisplayOnSequence,
+    BMWPADITestItem.SetPwm,
+    BMWPADITestItem.CheckBacklightErrorPin,
+    BMWPADITestItem.Switch_Pattern
+    </PrcsItem>
+	<PrcsFinalItem>	
+    <!-- BMWPADILOT2TestItem.Power_Supply_Off -->
+	</PrcsFinalItem>
+    </LOT3>
+	<CBMS>
+	<PrcsItem>
+	BMWPADITestItemCBMS.CBMS_init,
+    <!-- BMWPADITestItemCBMS.LoadXML, -->
+    <!-- BMWPADITestItem.Power_Supply_On, -->
+	<!-- BMWPADITestItem.WaitForRSE_WakeUp, -->
+	<!-- BMWPADITestItem.DelayForRSEstartup, -->
+		<!-- BMWPADITestItem.DelayForRSEstartup, -->
+	<!-- BMWPADITestItem.DelayForRSEstartup, -->
+	<!-- BMWPADITestItemCBMS.Logistic_initXmlWithLogisticSocketAppend, -->
+        <!-- BMWPADITestItemCBMS.CheckIndigoFW, -->
+        <!-- BMWPADITestItemCBMS.Read_ECU_UID, -->
+
+	<!-- BMWPADITestItemCBMS.WriteDateSerial1, -->
+
+	<!-- BMWPADITestItemCBMS.WritePanelID, -->
+    <!-- BMWPADITestItemCBMS.RecordCronusSN, -->
+	<!-- BMWPADITestItemCBMS.WriteLedMixBin1, -->
+
+	<!-- BMWPADITestItemCBMS.WriteBLCalibration, -->
+	<!-- BMWPADITestItemCBMS.Power_Supply_Off, -->
+	<!-- BMWPADITestItem.DelayForRSEstartup, -->
+	<!-- BMWPADITestItemCBMS.Power_Supply_On, -->
+	<!-- BMWPADITestItemCBMS.WaitForRSE_WakeUp, -->
+	<!-- BMWPADITestItemCBMS.DelayForRSEstartup, -->
+	<!-- BMWPADITestItemCBMS.DisplayOnSequence, -->
+	<!-- BMWPADITestItemCBMS.CheckIndigoFW, -->
+    <!-- BMWPADITestItemCBMS.SetPwm, -->
+    <!-- BMWPADITestItemCBMS.FunBMWVCOMTrimming, -->
+	<!-- BMWPADITestItemCBMS.Power_Supply_Off, -->
+	BMWPADITestItem.DelayForRSEstartup,
+	BMWPADITestItemCBMS.Power_Supply_On,
+	BMWPADITestItemCBMS.WaitForRSE_WakeUp,
+	<!-- BMWPADITestItemCBMS.DelayForRSEstartup, -->
+	<!-- BMWPADITestItemCBMS.DelayForRSEstartup, -->
+	<!-- BMWPADITestItemCBMS.DelayForRSEstartup, -->
+	<!-- BMWPADITestItemCBMS.CheckIndigoFW, -->
+    BMWPADITestItemCBMS.MeasureGreenlevelpattern
+    <!-- BMWPADITestItemCBMS.SetPwm, -->
+	<!-- BMWPADITestItemCBMS.MeasureDefaultWhite, -->
+	<!-- BMWPADITestItemCBMS.MeasureBlack, -->
+	<!-- BMWPADITestItemCBMS.CalculateContrast, -->
+	<!-- BMWPADITestItemCBMS.MeasureGreylevelpattern127, -->
+	<!-- BMWPADITestItemCBMS.MeasureRedlevelpattern, -->
+	<!-- BMWPADITestItemCBMS.MeasureGreenlevelpattern, -->
+	<!-- BMWPADITestItemCBMS.Measurebluelevelpattern, -->
+    <!-- BMWPADITestItemCBMS.FunCheckRGBxyYDP, -->
+	<!-- BMWPADITestItemCBMS.New_FunCalibrateBL_PWM_CURVE_Y2, -->
+    <!-- BMWPADITestItemCBMS.New_FunCalibrateBL_PWM_CURVE_Y3,	 -->
+	<!-- BMWPADITestItemCBMS.ReadDriverVcom, -->
+    <!-- BMWPADITestItemCBMS.DisplayOnSequence, -->
+    <!-- BMWPADITestItemCBMS.SetPwm, -->
+	<!-- BMWPADITestItemCBMS.MeasureFlicker, -->
+	<!-- BMWPADITestItemCBMS.ReadBacklightTemp -->
+    </PrcsItem>
+	<PrcsFinalItem>	
+    <!-- BMWPADILOT2TestItem.Power_Supply_Off -->
+	</PrcsFinalItem>
+    </CBMS>
+    <TPI>
+	<PrcsItem>
+	BMWPADITestItemTPI.TPI_init,
+    BMWPADITestItemTPI.LoadXML,
+    BMWPADITestItemTPI.Power_Supply_On,
+	BMWPADITestItemTPI.WaitForRSE_WakeUp,
+	BMWPADITestItemTPI.DelayForRSEstartup,
+    <!-- BMWPADITestItemTPI.CheckTouchFW, -->
+	BMWPADITestItem.CheckIndigoFW,
+    <!-- BMWPADITestItemTPI.TouchCalibration_STEP1, -->
+	<!-- BMWPADITestItemTPI.TouchCalibration_STEP2, -->
+	<!-- BMWPADITestItemTPI.ExecuteBIST, -->
+	<!-- BMWPADITestItemTPI.NewE2IPTouch4Corners, -->
+    BMWPADITestItemTPI.TouchDrawing
+    </PrcsItem>
+	<PrcsFinalItem>	
+    BMWPADITestItemTPI.Power_Supply_Off
+	</PrcsFinalItem>
+    </TPI>
+	<CKEN>
+	<PrcsItem>
+	BMWPADITestItem.CKEN_init,
+    <!-- BMWPADITestItem.LoadXML, -->
+    <!-- BMWPADITestItem.Power_Supply_On, -->
+	<!-- BMWPADITestItem.WaitForRSE_WakeUp, -->
+	<!-- BMWPADITestItem.DelayForRSEstartup, -->
+    <!-- BMWPADITestItem.ReadBacklightTemp, -->
+	<!-- BMWPADITestItem.CheckVSH, -->
+	<!-- BMWPADITestItem.CheckVGH, -->
+	<!-- BMWPADITestItem.CheckVGL, -->
+	<!-- BMWPADITestItem.CheckVbat, -->
+    <!-- BMWPADITestItem.CheckIndigoFW, -->
+    <!-- BMWPADITestItem.DisplayOnSequence, -->
+    <!-- BMWPADITestItem.SetPwm, -->
+    <!-- BMWPADITestItem.CheckBacklightErrorPin, -->
+    <!-- BMWPADITestItem.Switch_Pattern -->
+    BMWPADITestItemCBMS.LoadXML,
+    BMWPADITestItem.Power_Supply_On,
+	BMWPADITestItem.WaitForRSE_WakeUp,
+	BMWPADITestItem.DelayForRSEstartup,
+	BMWPADITestItem.DelayForRSEstartup,
+	BMWPADITestItem.DelayForRSEstartup,
+		<!-- BMWPADITestItem.DelayForRSEstartup, -->
+	<!-- BMWPADITestItem.DelayForRSEstartup, -->
+	<!-- BMWPADITestItem.DelayForRSEstartup, -->
+	BMWPADITestItemCBMS.Logistic_initXmlWithLogisticSocketAppend,
+        BMWPADITestItemCBMS.CheckIndigoFW,
+        BMWPADITestItemCBMS.Read_ECU_UID,
+
+	<!-- BMWPADITestItemCBMS.WritePanelID, -->
+	<!-- BMWPADITestItemCBMS.WriteBLCalibration, -->
+	BMWPADITestItemCBMS.WriteDateSerial1,
+	<!-- BMWPADITestItemCBMS.WriteLedMixBin1 -->
+	BMWPADITestItem.Power_Supply_Off,
+    BMWPADITestItem.Power_Supply_On,
+	BMWPADITestItem.WaitForRSE_WakeUp,
+	BMWPADITestItem.DelayForRSEstartup,
+    BMWPADITestItem.Switch_Pattern
+	
+	</PrcsItem>
+	<PrcsFinalItem>	
+	<!-- BMWPADILOT2TestItem.Power_Supply_Off -->
+	</PrcsFinalItem>
+    </CKEN>
+    <OQC>
+	<PrcsItem>
+	BMWPADITestItem.OQC_init,
+    BMWPADITestItem.LoadXML,
+    BMWPADITestItem.Power_Supply_On,
+	BMWPADITestItem.WaitForRSE_WakeUp,
+	BMWPADITestItem.DelayForRSEstartup,
+    BMWPADITestItem.ReadBacklightTemp,
+	BMWPADITestItem.CheckVSH,
+	BMWPADITestItem.CheckVGH,
+	BMWPADITestItem.CheckVGL,
+	BMWPADITestItem.CheckVbat,
+    BMWPADITestItem.CheckIndigoFW,
+    BMWPADITestItem.DisplayOnSequence,
+    BMWPADITestItem.SetPwm,
+    BMWPADITestItem.CheckBacklightErrorPin,
+    BMWPADITestItem.Switch_Pattern
+	</PrcsItem>
+	<PrcsFinalItem>	
+	BMWPADILOT2TestItem.Power_Supply_Off
+	</PrcsFinalItem>
+    </OQC>
+  </GDD313IA0040S>
+</Root>

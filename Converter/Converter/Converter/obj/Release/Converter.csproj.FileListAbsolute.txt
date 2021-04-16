@@ -1,0 +1,12 @@
+C:\Users\r2606\Desktop\Converter\Converter\Converter\bin\Release\Setting.xml
+C:\Users\r2606\Desktop\Converter\Converter\Converter\bin\Release\Converter.exe.config
+C:\Users\r2606\Desktop\Converter\Converter\Converter\bin\Release\Converter.exe
+C:\Users\r2606\Desktop\Converter\Converter\Converter\bin\Release\Converter.pdb
+C:\Users\r2606\Desktop\Converter\Converter\Converter\obj\Release\Converter.csproj.ResolveComReference.cache
+C:\Users\r2606\Desktop\Converter\Converter\Converter\obj\Release\Converter.Form1.resources
+C:\Users\r2606\Desktop\Converter\Converter\Converter\obj\Release\Converter.Properties.Resources.resources
+C:\Users\r2606\Desktop\Converter\Converter\Converter\obj\Release\Converter.csproj.GenerateResource.cache
+C:\Users\r2606\Desktop\Converter\Converter\Converter\obj\Release\Converter.csproj.CoreCompileInputs.cache
+C:\Users\r2606\Desktop\Converter\Converter\Converter\obj\Release\Converter.exe
+C:\Users\r2606\Desktop\Converter\Converter\Converter\obj\Release\Converter.pdb
+C:\Users\r2606\Desktop\Converter\Converter\Converter\obj\Release\Converter.csprojAssemblyReference.cache
